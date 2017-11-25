@@ -4,7 +4,10 @@
 		<title>AngularJS Two Way Data Binding</title>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
 	</head>
-	<body style="background-color: {{yourName}};">
+	<body style="background-color: {{yourName}}; text-align: center;">
+		<h2>This is an example of Two-way Data Binding using Angular.</h2>
+		<p>Type your name in the input field to see it display in real time.</p>
+		<p>Type in a color or #hex code to change the background.</p>
 		<input type="text" ng-model="yourName" placeholder="Enter your name">
 		<h1>{{yourName}}</h1>
 	</body>
